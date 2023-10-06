@@ -108,6 +108,10 @@ dependencies {
     // The version of react-native is set by the React Native Gradle Plugin
     implementation("com.facebook.react:react-android")
     implementation project(':react-native-camera')
+    implementation project(':react-native-fs')
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation "com.facebook.react:react-native:0.58.3"
+    // implementation project(':@react-native-camera-roll_camera-roll')
     // implementation project(':react-native-signature-canvas')
     // implementation project(':react-native-webview')
     debugImplementation("com.facebook.flipper:flipper:${FLIPPER_VERSION}")

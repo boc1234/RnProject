@@ -10,6 +10,9 @@ export default function HomeScreen({navigation}) {
             <TouchableOpacity onPress={()=>navigation.navigate("SignatureScreen")}>
                 <Text>Signature</Text>
             </TouchableOpacity>
+            <TouchableOpacity onPress={()=>navigation.navigate("CapScreen")}>
+                <Text>Cap</Text>
+            </TouchableOpacity>
         </View>
     )
 }

@@ -6,6 +6,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import CameraScreen from './screen/CameraScreen';
 import HomeScreen from './screen/HomeScreen';
 import SignatureScreen from './screen/SignatureScreen';
+import CapScreen from './screen/CapScreen';
 export default function App() {
   const Stack = createNativeStackNavigator();
 
@@ -15,6 +16,7 @@ export default function App() {
       <Stack.Screen name="HomeScreen" component={HomeScreen} />
       <Stack.Screen name="CameraScreen" component ={CameraScreen}/>
       <Stack.Screen name="SignatureScreen" component ={SignatureScreen}/>
+      <Stack.Screen name="CapScreen" component ={CapScreen}/>
     </Stack.Navigator>
   </NavigationContainer>
   )
